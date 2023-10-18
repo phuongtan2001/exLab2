@@ -1,0 +1,192 @@
+body {
+    width: 100vw;
+    height: 350vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.leftmain {
+    width: 34%;
+    height: 100%;
+}
+
+.leftmain1 {
+    width: 100%;
+    height: 17%;
+    background-image: url("img/anhthe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.leftmain2 {
+    width: 100%;
+    height: 83%;
+    background-image: linear-gradient(#1ab7ff, #526eff);
+    color: white;
+}
+
+.contact {
+    width: 100%;
+    height: 22.85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 1px;
+}
+
+.bigdot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 1px;
+}
+
+.icon{
+    width: 40%;
+}
+
+.infor{
+    padding-left: 10px;
+}
+.phone{
+    display: flex;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+   height: 100px;
+   width: 100px;
+
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.itemlanguage{
+    width: 70%;
+}
+
+.imgload{
+    width: 100%;
+    height: 100%;
+}
+
+.row2{
+    display: flex;
+
+}
+
+.item2{
+    width: 90px;
+    height: 90px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.item2:first-child{
+    padding-left: 60px;
+}
+
+.imgpassions{
+    width: 100%;
+    height: 100%;
+
+}
+
+.rightmain{
+    position: top right;
+    margin-left: auto;
+    width: 66%;
+    height: 100%;
+}
+
+.rightmain1{
+    width: 100%;
+    height: 7%;
+    background-image: linear-gradient(to right, #1ab7ff, #526eff);
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.rightfont{
+    color: #526eff;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 17px;
+}
+
+.iconprofile{
+    padding-left: 55px;
+}
+
+.bluedot{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 6px;
+    background-color: rgb(12, 212, 238);
+}
+
+.para{
+    font-size: 22px;
+}
+
+.boldline{
+    margin: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.year{
+    padding-left: 65px;
+    padding-right: 28px;
+    font-size: 22px;
+}
+
+.flashcontain{
+    display: flex;
+    align-items: center;
+}
+
+.flash{
+    width: 50px;
+    height: 100px;
+    border-width: 0px 0px 0px 2px;
+    border-style: solid;
+    margin-left: 90px;
+}
